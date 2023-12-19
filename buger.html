@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>checkout Best Food Places To Eat Near You</title>
+  <link rel="icon" href="myzomato.png" type="image/x-icon">
+  <style>
+    *{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    width: 100%;
+}
+.nav{
+  
+    display: flex;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+.box-2 span img{
+    
+    margin-left: 110px;
+    margin-top: 15px;
+
+    
+
+}
+.box-3{
+    align-items: center;
+    display: flex;
+     border-radius: 3px;
+     box-shadow: 0 3px 5px rgb(226, 223, 223);
+    -webkit-tap-highlight-color: rgb(37, 35, 35);
+    margin-left: 30px;
+
+   
+
+}
+.box-3 img{
+    margin-right: 5px;
+   
+    
+}
+.box-3 span{
+    
+    margin-left: 10px;
+    opacity: 0.6;
+    
+}
+ .select{
+    
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-right:1px solid black ;
+   
+}
+.search{
+   
+    border: none;
+    width: 340px;
+    height: 2%;
+    cursor: pointer;
+}
+.box-1 {
+  
+    margin-left: 10%;
+    width:350px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.login {
+margin-left: 5px;
+text-decoration: none;
+color: rgb(76, 74, 74);
+    
+}
+.signup {
+    margin-left: 25px;
+    text-decoration: none;
+color: rgb(76, 74, 74);
+
+}
+.box-1 a:visited{
+    color:rgb(76, 74, 74);;
+}
+.box-1 a:hover{
+    
+    color: black;
+}
+.heading {
+  justify-content: space-between;
+  background-color: #F5F7F8;
+  padding-top: 30px;
+ padding-bottom: 50px;
+  
+}
+.head-2{
+  margin-left: 13%;
+}
+.img img {
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top:20px ;
+ 
+}
+.span a{
+  margin-left: 20px;
+ margin-bottom: 10px;
+ text-decoration: none;
+ color: black;
+ font-size: 20px;
+ font-family:  Arial, Helvetica, sans-serif;
+ 
+}
+.span a:hover{
+  color: rgb(216, 72, 72);
+}
+
+
+/*body start */
+
+h1{
+  
+    margin-top:.30px;
+    padding-top: 30px;
+    text-align: center;
+   font-weight: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(72, 72, 72);
+    
+
+}
+
+.pizza{
+  padding: 10px;
+  white-space: nowrap;
+  overflow:auto;
+  background-color:white;
+
+  display: flex;
+}
+.container{ 
+   
+        justify-content: center;
+        height: 420px;
+         width: 370px;
+        background-color: rgb(247, 244, 244);
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 80px;
+        margin-top: 5px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+        border: 1px solid rgb(174, 170, 170);
+        box-shadow: 2px 8px 10px rgb(226, 223, 223);
+    -webkit-tap-highlight-color: rgb(37, 35, 35);
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+.pizza1 img{
+    
+margin-right: 10px;
+border-radius: 5px;
+border: 1px solid black;
+background-color:white;
+}
+
+.pizza2 img{
+
+    margin-left: 21px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color:white;
+    }
+    .pizza3 img{
+
+        margin-left: 21px;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color:white;
+        }
+.figcaption21 {
+    margin-left: 90px;
+}
+.figcaption22 {
+    margin-left: 95px;
+}
+.figcaption23 {
+    margin-left: 100px;
+}
+.p1{
+    margin-left: 80px; 
+    
+}
+.p2{
+    margin-left: 88px; 
+    
+}
+.p3{
+    margin-left: 79px; 
+    
+}
+
+b{
+    border: 1px solid black;
+    color: black;
+    background-color:white ;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    border-radius: 6px;
+    padding-left: 8px;
+    
+}
+button{
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgb(232, 72, 72);
+    cursor: pointer;
+ 
+}
+
+button a{
+    
+    text-decoration: none;
+    color: white;
+   
+}
+button a:hover{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*footer starts*/
+footer{
+    background-color:#F5F7F8;
+}
+.footer-heading{
+    margin-left: 9%;
+}
+.footer-heading-1{
+
+    
+    display: flex;
+   
+}
+.footer-heading-1 img{
+    position: relative;
+    margin-left: 10px;
+    width: 140px;
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+.box-4{
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    margin-left: 50%;
+    border-radius: 3px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+   
+}
+
+.img-2 span img{
+    width: 20px;
+    height: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 1px;
+}
+.location{
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-right: 15px;
+    border: none;
+    border-radius: none;
+}
+.location span select{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    cursor: pointer; 
+    font-weight: lighter;
+}
+.box-5{
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-left: 6%;
+    border-radius: 3px;
+    width: 155px;
+    height: 40px;
+    cursor: pointer;
+  
+  
+}
+.img-3 span img{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 6px;
+    border-radius: 1px;
+    position:relative;
+   
+
+}
+.location1 span select{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    cursor: pointer; 
+    margin-right: 15px;
+    margin-top: 7px;
+    padding-right: -15px;
+    font-weight:lighter;
+  
+}
+.footer-body{
+    
+    margin-left: -31px;
+
+}
+.footer-body ,tr, th, td{
+
+    padding-left: 80px;
+}
+.footer-end{
+   
+    border-top: 1px solid rgb(210, 205, 205);
+    margin-left: 128px;
+    margin-right: 115px;
+    
+}
+.footer-end div p{
+    opacity: 0.8;
+    font-size: 15px;
+}
+  </style>
+</head>
+<body>  
+  <header>
+  <br>
+ 
+  <nav class="nav">
+      <div class="box-2">  
+         <span><a href="index.html" ><img src="black.png" alt="" width="130px"></a></span>
+      </div>
+                  <div class="box-3">
+                      
+                          <span><img class="imgcontainer" src="lc.jpg" alt="" width="25"></span>
+                         <span><form action="/search" method="get">
+                           <select location="place" class="select">
+                            <option value="Bengaluru" >Bengaluru</option>
+                           <option value="Hyderabad">Hyderabad</option>
+                           <option value="Mumbai">Mumbai</option>
+                           <option value="Delhi">Delhi</option>
+                            </select>
+                          </form></span>
+              
+                           <span>
+                              <i class="fa fa-search"></i></span>
+                              <span><input type="text" id="search" name="q" placeholder="search for restaurant,cuisine, or a dish" class="search">
+                      
+                          </span>
+                 </div> 
+                 <div class="box-1"> 
+                     <a class="login" href="login.html">Login</a>
+                      <a class="signup" href="signup.html">Sign up</a>
+                  
+                 </div>                 
+       
+  </nav>
+  </header>
+ 
+<br>
+<br><br>
+  <div class="heading"><span class="img">
+      <div class="head-2"><img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp" alt="Loading", width="50">
+      </span> 
+        <span class="span"><a href="">Delivery</a></span> 
+           
+           <span class="img"> <img src="lunch.png", width="50" ></span>
+           <span class="span"><a href="">Dining Out</a></span>
+           <span class="img"><img src="https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png?output-format=webp" alt="" width="50px"></span>
+           <span class="span"><a href="">Nightlife</a></span></div>
+      
+        </div>
+  <h1>Burgers</h1>
+  <section>
+    <div class="pizza">
+      <div class="container"> 
+        <div class="pizza1">
+          <figure>
+          <img src="b1.jpg" alt="" height="230px"  width="280px"> 
+          <figcaption class="figcaption21">Chiken Burger</figcaption>
+          <p class="p1"><b>&#8377:400 rs<button><a href="order.html">order</a></button></b></p>
+     </figure> </div>
+      
+  </div>
+  <div class="container"><div class="pizza2"> <figure>
+    <img src="b2.webp" alt="" height="260" width="250"> 
+    <figcaption class="figcaption22">Double Patti Burger</figcaption><p class="p2"><b>&#8377:200 rs<button><a href="order.html">order</a></button></b></p>
+</figure> </div></div>
+  
+<div class="container"><div class="pizza3"><figure>
+  <img src="b3.jpg" alt="" height="260" width="250"> 
+  <figcaption class="figcaption22">Crispy Burger</figcaption><p class="p3"><b>&#8377:100 rs<button><a href="order.html">order</a></button></b></p>
+</figure> </div></div>
+   
+   
+  </div>
+       
+      
+    
+  </section>
+  
+  <footer>
+    <br><br><br>
+    <div class="footer-heading">
+        <div class="footer-heading-1">      
+            <div class="img-1"><span><img src="black.png" alt=""></span></div>
+                <div class="box-4">
+                    <div class="img-2"><span><img src="indian.webp" alt=""><span> </div>
+                    <div class="location"><span> <select location="place" class="box">
+                            <option value="Bengaluru" >India</option>
+                             <option value="Hyderabad">UAE</option>
+                             </select> 
+                            </span></div>
+                   
+                 </div>
+                 <div class="box-5">
+                    <div class="img-3"><span><img src="globe1.jpg" alt=""></span></div>
+                    <div class="location1"><span> <select location="place" class="box">
+                        <option value="English" >English</option>
+                         <option value="Hindi">Hindi</option>
+                         <option value="Kannada">Kannada</option>
+                         <option value="Telegu">Telegu</option>
+                         <option value="Marathi">Marathi</option>
+                         <option value="Gujrati">Gujrati</option>
+                         </select> 
+                        </span></div>
+                    
+                 </div>
+    
+        </div>
+      </div>
+        <div class="footer-heading2">
+             <div class="footer-body">
+                <table>
+                    <tr>
+                        <th class="one">ABOUT ZOMATO</th>
+                        <th >ZOMAVERSE</th>
+                        <th >FOR restaurants</th> 
+                      <th >LEARN MORE</th> 
+                      <th >SOCIAL LINKS </th>    
+                    </tr>
+                    <tr>
+                       <td class="two">who we are</td>
+                        <td>zomato</td>
+                        <td>partner with us</td>
+                        <td>apps for you</td>
+                        <td><img src="fb.jpg" alt="" width="25px"><img src="you.webp" alt="" width="24px"><img src="insta.jpg" alt="" width="21px"><img src="linkd.jpg" alt="" width="21px"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </td>
+                    </tr>   
+                  <tr>
+                   <td>blog</td>
+                   <td>blinkit</td>
+                    <td>apps for you</td>
+                    <td></td>
+                     <td></td>
+               </tr>
+               <tr>
+                   <td>work with us</td>
+                   <td>feeding india</td>
+                  <td></td>
+                  <td>terms</td>
+                  <td><img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" width="120px" alt=""></td>
+                   </tr>
+                  <tr>
+      <td>investor</td>
+      <td>zomaland</td>
+      <td></td>
+      <td>sitemap</td>
+      <td><img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" width="120px"></td>
+
+  </tr>
+  <tr>
+      <td>report fraud</td>
+  </tr>
+  <tr>
+      <td>
+          press kit
+      </td>
+  </tr>
+  <tr>
+      <td>contact us</td>
+  </tr>
+                </table>
+</div>
+</div>
+<br><br><br>
+<div class="line"></div>
+
+     <div class="footer-end">
+        <div>
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</p><p>&copy; Numan Ali.</p></div>
+        </div>
+    </div>
+
+    
+    
+    
+</footer>
+
+  
+</body>
+</html>
